@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Web Resume</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header-content">
+        <h1>Zhan Huang(黄湛)</h1>
+        <img src="Profile.jpg" alt="Zhan Huang" class="profile-image">
+      </div>
+      <div class="social-links">
+        <a href="https://github.com/tonyhz522" target="_blank" title="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/tonyhuanghz522/" target="_blank" title="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="mailto:your.email@example.com" title="Email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#reaserch">Reaserch</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section id="about" class="container">
+      <h2>About</h2>
+      <p>Hi, I am a undergraduate student at the University of Michigan, majoring in Mathematical Sciences,
+        minoring inComputer Science. My research interests are in the field of Machine Learning and LLM.
+    <section id="experience" class="container">
+      <h2>Experience</h2>
+      <div class="item">
+        <h3>Intern at Ping An Bank Co., Ltd.</h3>
+        <span>2024.07 - 2024.08</span>
+        <p> Utilized deep learning models and Fourier transforms to test and improve the prediction effects of long-time series models. 
+            Investigated a weighted fusion of FFT periodic features and wavelet transform for enhanced model performance</p>
+      </div>
+      <div class="item">
+        <h3>Intern at CITIC Securities</h3>
+        <span>2023.08 - 2023.09</span>
+        <p>Participated in a pharmaceutical retail IPO project, assisting the project in passing the internal audit and filing for the main board of the Shenzhen Stock Exchange; 
+            Flow verification: Completed the screening and organization of the personal flow of directors and supervisors, with a total of more than 5,000,000 large or abnormal flows of more than 100,000 amounts.</p>
+      </div>
+    </section>
+    <section id="education" class="container">
+      <h2>Education</h2>
+      <div class="item">
+        <h3>B.S in Mathematical Sciences, Minor Computer Science, University of Michigan</h3>
+        <span>2024 - 2026 (Transfered from South China Normal University)</span>
+        <p>Honors: Departmental academic scholarship first prize, School scholarship second price</p>
+        <p>Relevant Coursework: Linear Algebra, Calculus, Probability and Statistics, Differential Equations, 
+            Numerical Analysis, Real Analysis, Computer Networks, Database Systems, Web Application Development, 
+            Machine Learning</p>
+    </div>
+    </section>
+    <section id="skills" class="container">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3>Programming Languages</h3>
+          <div class="skill-item">
+            <span>Python</span>
+            <div class="progress-bar">
+              <div class="progress" style="width: 90%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <span>C++</span>
+            <div class="progress-bar">
+              <div class="progress" style="width: 85%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <span>SQL</span>
+            <div class="progress-bar">
+              <div class="progress" style="width: 80%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <span>HTML/CSS/JavaScript</span>
+            <div class="progress-bar">
+              <div class="progress" style="width: 75%"></div>
+            </div>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3>Frameworks & Tools</h3>
+          <div class="skill-item">
+            <span>Scikit-learn</span>
+            <div class="progress-bar">
+              <div class="progress" style="width: 85%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <span>TensorFlow</span>
+            <div class="progress-bar">
+              <div class="progress" style="width: 80%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <span>pandas/Numpy</span>
+            <div class="progress-bar">
+              <div class="progress" style="width: 90%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <span>Django</span>
+            <div class="progress-bar">
+              <div class="progress" style="width: 70%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="container">
+      <h2>Projects</h2>
+      <div class="item">
+        <h3>"Reasonable Or Not" Web Application</h3>
+        <p>Designed a webpage named "Reasonable or Not" with frontend 
+            and backend functionalities to help consumers purchase rationally; calculated a rationality index and recommended the most suitable products based on their needs. <a href="#">View on GitHub</a></p>
+      </div>
+      <div class="item">
+        <h3>Stock-analysis system</h3>
+        <p>Designed a stock analysis webpage structure with multiple stocks information and visualized portforlio info.
+           <a href="https://github.com/tonyhz522/stock-analysis-system.git">View on GitHub</a></p>
+      </div>
+
+      <section id="reaserch" class="container">
+        <h2>Research</h2>
+        <div class="item">
+          <h3>Research on the pricing bias of Chinese convertible bonds</h3>
+          <p>Researched the pricing of the Chinese convertible bond market, conducted empirical analysis and Bootstrap test using the Black Scholes Model, Binomial Tree Model, and Monte Carlo Simulation.</p>
+          <a href="http://dx.doi.org/10.4108/eai.29-3-2024.2347310">"Exploring Pricing Biases in Chinese Convertible Bonds Market: The Influence of Green Bond Policies." (ICBBEM 2024)</a>
+        </div>
+    </section>
+    <section id="contact" class="container">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:zhanhuang522@gmail.com">zhanhuang522@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/tonyhuanghz522/">Zhan Huang</a></p>
+      <p>GitHub: <a href="https://github.com/tonyhz522">tonyhz522</a></p>
+    </section>
+  </main>
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Zhan Huang. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html> 
